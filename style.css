@@ -1,0 +1,44 @@
+/* #ff0a54 */
+
+/* Top Bar Stylings */
+.top-bar h3{
+    color:#ff0a54;
+    font-weight: 400;
+
+}
+.top-bar a{
+    color:grey;
+}
+.top-bar a:hover{
+    color:#e10408;
+}
+/* Top Bar Stylings */
+
+/* slider images */
+.main-slider img{
+    height: 70vh;
+}
+.carousel-caption{
+    background: rgb(60,17,30);
+background: linear-gradient(90deg, rgba(60,17,30,0.7483368347338936) 20%, rgba(36,52,21,0.8295693277310925) 80%);
+
+}
+
+/* slider images */
+
+/* program section stylings starts */
+.program img{
+    height: 300px;
+    opacity: .7;
+}
+
+.program .card:hover img{
+    opacity: 7;
+
+}
+.program .card:hover .card-body{
+    background-color: #ff0a54;
+    color:azure;
+    transition: .7s ease-in-out;
+}
+/* program section stylings ends */
